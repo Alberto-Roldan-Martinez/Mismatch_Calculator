@@ -1,0 +1,28 @@
+##CLUSTER LATTICE DEFINITION##
+LENGTH_A = 1.0 ##Defines the length of a (cluster)
+LENGTH_B = 1.0 ##Defines the length of b (cluster)
+ANGLE_PHI = 60.0 ##Defines the angle phi (cluster)
+
+##SURFACE LATTICE DEFINITION##
+LENGTH_K = 1.3 ##Defines the length of k (surface)
+LENGTH_L = 1.3 ##Defines the length of l (surface)
+ANGLE_THETA = 60.0 ##Defines the angle theta (surface)
+
+##SITE SET2 DEFINITION##
+N_SET2_IF = 0 ##0: only one set of identical sites; 1: second set
+N_SET2_L = 0.8 ##distance of SET2 to SET1
+N_SET2_ANGLE = 30.0 ##angle of the shift from SET1 to SET2
+
+##ROTATION SETTINGS##
+ALPHA_MIN = 1 ##0: no minimisation; 1: Nelder-Mead algorithm
+ALPHA_RAND = 0 ##1: starting value of alpha randomly set; 2: theta-phi/2
+ANGLE_ALPHA = 17.0 ##Defines starting value of alpha (if alpha rand is zero)
+
+##PLOT SETTINGS##
+R_CUT = 0.98 ##Minimum R^2 for linear fit
+PLOT_FUNC = 1 ##1: Show plot of linear fit
+PLOT_CLUSTER = 1 ##1: Show cluster plot
+
+##MISC SETTINGS## 
+N_NEIGHBOURS = 200 ##Defines the number of calculated neighbour sets
+D_NORM = 3 ##0: r_N and m_N not normalised; 1: normalisation to (a+b)/2; 2: normalisation to (k+l)/2; 3: normalisation to (a+b+k+l)/4
