@@ -15,4 +15,5 @@ commenting: https://realpython.com/python-comments-guide/
 
 Case Study
 A detailed methodology and flow work is found on:
+
 "The influence of support materials on the structural and electronic properties of gold nanoparticles – a DFT study"
